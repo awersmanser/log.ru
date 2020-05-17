@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="ru">
+
+<head>
+    <meta charset="UTF-8">
+    <!--SEO-->
+    <meta charset="keywords" content="log, test, star">
+    <meta charset="description" content="Test site with firing star.">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Лог</title>
+    <!--Icon-->
+    <link rel="shortcut icon" href="images/favicon.png">
+    <!--CSS import-->
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <!--Preloader-->
+    <div class="preloader"><span>Загрузка...</span>
+        <div class="loading"></div>
+    </div>
+    <!--Modal notification window-->
+    <div class="modal-notification-window">
+        <div class="modal-notification-window-content">
+            <div class="modal-notification-window-header">
+                <button class="modal-notification-window-close-button" title="Закрыть">✖</button>
+                <h2 class='modal-notification-window-header-title'></h2>
+            </div>
+            <div class="modal-notification-window-body">
+                <p class="modal-notification-window-text"></p>
+                <button class="modal-notification-window-accept-button"></button>
+            </div>
+        </div>
+        <div class="modal-notification-window-background" title="Закрыть"></div>
+    </div>
+    <!--Star screen-->
+    <div class="star">
+        <button class="back-button">&#8249 НАЗАД</button>
+        <div class="star-object"></div>
+    </div>
+    <!--Main screen-->
+    <div class="container">
+        <div class="title-and-auth-side">
+            <div class="title-side">
+                <div class="title">лог.</div>
+                <ul class="sub-title">
+                    <li>создавайте документы</li>
+                    <li>открывайте бэкдоры</li>
+                    <li>комфортная работа с текстом</li>
+                </ul>
+            </div>
+            <div class="auth-side">
+                <div class="auth">
+                    <label for="login">логин</label>
+                    <input type="text" class="auth-input" id="login" maxlength="25">
+                    <div class="auth-circle" id="auth-circle-login"></div>
+                    <label for="password">пароль</label>
+                    <input type="password" class="auth-input" id="password" maxlength="25">
+                    <div class="auth-circle" id="auth-circle-password"></div>
+                </div>
+                <button class="auth-button">старт</button>
+            </div>
+        </div>
+        <h2>GIF</h2>
+        <div class="gif">
+            <div class="loading" id="gif-loading"></div>
+        </div>
+        <footer>
+            <span>@права защищены 2020</span>
+            <div class="social-medias">
+                <a class="instagram" title="Instagram" href='https://instagram.com' target="_blank"></a>
+                <a class="vk" title="VK" href='https://vk.com' target="_blank"></a>
+                <span>социал. сети: </span>
+            </div>
+        </footer>
+    </div>
+    <!--JS import-->
+    <script type="text/javascript" src="scriptRU.js"></script>
+</body>
+
+</html>
