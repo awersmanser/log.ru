@@ -14,7 +14,7 @@ let passwordInput = document.querySelector('#password');
 
 //After loaded
 
-window.onload = function () {
+window.onload = () => {
     document.querySelector('.modal-notification-window').style.transition = 'all .25s ease';
     document.querySelector('.modal-notification-window-content').style.transition = 'all .25s ease-in-out';
     document.querySelector('.modal-notification-window-close-button').style.transition = 'all .25s ease';
