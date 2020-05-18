@@ -86,7 +86,7 @@ function authAttention() {
             passwordInput.focus();
         }
     }
-    if (authCheck().includes('пароль: правильный')) {
+    if (authCheck().includes('пароль: неправильный')) {
         document.querySelector('#auth-circle-password').style.animation = 'auth-attention .25s infinite ease alternate';
         setTimeout(() => document.querySelector('#auth-circle-password').style.animation = '', 2500);
     } else {
